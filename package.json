@@ -1,0 +1,23 @@
+{
+  "name": "postgresql-crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.0.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.1",
+    "prisma": "^6.0.1",
+    "uuid": "^11.0.3"
+  }
+}
